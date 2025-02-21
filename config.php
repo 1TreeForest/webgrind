@@ -16,8 +16,8 @@ class Webgrind_Config extends Webgrind_MasterConfig {
      * Writable dir for information storage.
      * If empty, will use system tmp folder or xdebug tmp
      */
-    static $storageDir = '/tmp/webgrindStorage';
-    static $profilerDir = '/tmp/xdebug';
+    static $storageDir = '';
+    static $profilerDir = '/tmp';
 
     /**
      * Suffix for preprocessed files
